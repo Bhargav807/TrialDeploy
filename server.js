@@ -64,7 +64,7 @@ app.use("*", function(req, res) {
 //const PORT = process.env.PORT;
 
 app.listen(process.env.PORT, () => {
-  console.log(`server running on ${PORT} `.bgCyan.white);
+  console.log(`server running on ${process.env.PORT} `.bgCyan.white);
 });
 
 
